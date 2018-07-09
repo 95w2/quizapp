@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Who was the first person to reach Mount Everest? </string>
+		<key>answers</key>
+		<array>
+			<string>Sherpa Tensing, Edmund Hillary</string>
+			<string>Rajesh Sharma</string>
+			<string>Charles Hillary</string>
+			<string>Johan Don</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which country was the first to print books?</string>
+		<key>answers</key>
+		<array>
+			<string>China</string>
+			<string>India</string>
+			<string>USA</string>
+			<string>UK</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which country was the first to issue paper currency?</string>
+		<key>answers</key>
+		<array>
+			<string>China</string>
+			<string>India</string>
+			<string>USA</string>
+			<string>UK</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Who was the first president of the USA?</string>
+		<key>answers</key>
+		<array>
+			<string>George Washington</string>
+			<string>Robert Walpole</string>
+			<string>Henry Waterloo</string>
+			<string>George Bush</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which country was the first to win the football World cup? </string>
+		<key>answers</key>
+		<array>
+			<string>Uruguay</string>
+			<string>India</string>
+			<string>USA</string>
+			<string>UK</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Hitler party which came into power in 1933 is known as the</string>
+		<key>answers</key>
+		<array>
+			<string>Nazi Party</string>
+			<string>Labour Party</string>
+			<string>Ku-Klux-Klan</string>
+			<string>Democratic Party</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which country was the first to host the modern Olympics?</string>
+		<key>answers</key>
+		<array>
+			<string>Greece</string>
+			<string>India</string>
+			<string>USA</string>
+			<string>UK</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>The fastest shorthand writer was</string>
+		<key>answers</key>
+		<array>
+			<string>Dr. G. D. Bist</string>
+			<string>J.R.D. Tata</string>
+			<string>J.M. Tagore</string>
+			<string>Khudada Khan</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which was the first spacecraft to reach Mars? </string>
+		<key>answers</key>
+		<array>
+			<string>Viking - 1</string>
+			<string>Vikrant - 1</string>
+			<string>Shelter</string>
+			<string>Magway</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Who was the first female Prime Minister of a country?</string>
+		<key>answers</key>
+		<array>
+			<string>Mrs. S. Bandamaike</string>
+			<string>Sarojini Naidu</string>
+			<string>Indira Gandhi</string>
+			<string>Anpanman Sen</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Who was the first U.S. President to resign Presidency?</string>
+		<key>answers</key>
+		<array>
+			<string>Richard Nixon</string>
+			<string>Robert Walpole</string>
+			<string>Henry Waterloo</string>
+			<string>George Bush</string>
+		</array>
+	</dict>
+    <dict>
+        <key>question</key>
+        <string>The rock which is harder than its original constituent is</string>
+        <key>answers</key>
+        <array>
+            <string>Metamorphic rock</string>
+            <string>Igneous rock</string>
+            <string>Sedimentary rock</string>
+            <string>Coal</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>The release of water vapour from the leaves is called</string>
+        <key>answers</key>
+        <array>
+            <string>Transpiration</string>
+            <string>Evaporation</string>
+            <string>Frost</string>
+            <string>Dew</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>Which of the following is not a greenhouse gas?</string>
+        <key>answers</key>
+        <array>
+            <string>Sulfur dioxide</string>
+            <string>Carbon dioxide</string>
+            <string>Methane</string>
+            <string>Chlorofluorocarbon</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>The study of the relationship between life forms and their environment is</string>
+        <key>answers</key>
+        <array>
+            <string>Ecology</string>
+            <string>Astrology</string>
+            <string>Entomology</string>
+            <string>Zoology</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>The painting "The Last Supper" was painted by</string>
+        <key>answers</key>
+        <array>
+            <string>Leonardo da Vinci</string>
+            <string>Raphael</string>
+            <string>Michaelangelo</string>
+            <string>Van Gogh</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>The fall of the Czar, Nicholas II (USSR) is known as the</string>
+        <key>answers</key>
+        <array>
+            <string>February Revolution</string>
+            <string>Industrial Revolution</string>
+            <string>Red Revolution</string>
+            <string>Social Revolution</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>Bronze is made by mixing</string>
+        <key>answers</key>
+        <array>
+            <string>copper and zinc</string>
+            <string>copper and manganese</string>
+            <string>copper and lead</string>
+            <string>copper and tin</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>The universal declaration of Human Rights was adopted by UN on</string>
+        <key>answers</key>
+        <array>
+            <string>10th December 1948</string>
+            <string>20th August 1948</string>
+            <string>20th January 1948</string>
+            <string>10th February 1945</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>The longest day in the southern hemisphere is</string>
+        <key>answers</key>
+        <array>
+            <string>Dec. 22</string>
+            <string>June 22</string>
+            <string>March 23</string>
+            <string>Sept. 21</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>Primary rocks are the result of which of the following processes?</string>
+        <key>answers</key>
+        <array>
+            <string>Solidification</string>
+            <string>Melting</string>
+            <string>Desertification</string>
+            <string>Caching</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>What is another name used to refer to tropical cyclones of the West Indies?</string>
+        <key>answers</key>
+        <array>
+            <string>Rita</string>
+            <string>Hurricane</string>
+            <string>Typhoon</string>
+            <string>Billy Billy</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>Which of the following phenomena cannot be observed on the Moon?</string>
+        <key>answers</key>
+        <array>
+            <string>the twinkling of stars</string>
+            <string>solar eclipses</string>
+            <string>the otion of comets</string>
+            <string>the rising of the Sun</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>Which of the following planets has a revolution time which is shorter than its rotation time?</string>
+        <key>answers</key>
+        <array>
+            <string>Venus</string>
+            <string>Jupiter</string>
+            <string>Mars</string>
+            <string>Uranus</string>
+        </array>
+    </dict>
+    <dict>
+        <key>question</key>
+        <string>What is the average distance (approximate) between the Sun and the Earth?</string>
+        <key>answers</key>
+        <array>
+            <string>100 x 10^5 km</string>
+            <string>70 x 10^5 km</string>
+            <string>110 x 10^6 km</string>
+            <string>150 x 10^6 km</string>
+        </array>
+    </dict>
+</array>
+</plist>
