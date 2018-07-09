@@ -20,6 +20,9 @@
 		88C5BCEA20EF47DB000FC361 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5BCE920EF47DB000FC361 /* Question.swift */; };
 		88C5BCEC20EF4EAB000FC361 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5BCEB20EF4EAB000FC361 /* Quiz.swift */; };
 		88C5BCEE20F316FC000FC361 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5BCED20F316FC000FC361 /* GameState.swift */; };
+		88C5BCF020F3315C000FC361 /* Scoreboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5BCEF20F3315C000FC361 /* Scoreboard.swift */; };
+		88C5BCF220F3411D000FC361 /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5BCF120F3411D000FC361 /* TitleScreen.swift */; };
+		88C5BCF420F34B6D000FC361 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5BCF320F34B6D000FC361 /* Players.swift */; };
 		CFF811548CAC5D841EA9B275 /* Pods_quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BA498EC3B5EBA161AD549E /* Pods_quiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		88C5BCE920EF47DB000FC361 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		88C5BCEB20EF4EAB000FC361 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		88C5BCED20F316FC000FC361 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		88C5BCEF20F3315C000FC361 /* Scoreboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoreboard.swift; sourceTree = "<group>"; };
+		88C5BCF120F3411D000FC361 /* TitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
+		88C5BCF320F34B6D000FC361 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
 		B02E40DEDBE9A63A815A1F7D /* Pods-quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-quiz/Pods-quiz.debug.xcconfig"; sourceTree = "<group>"; };
 		D5B60FF0D7BF5E119D883930 /* Pods-quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-quiz/Pods-quiz.release.xcconfig"; sourceTree = "<group>"; };
 		F3BA498EC3B5EBA161AD549E /* Pods_quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,10 +93,13 @@
 			children = (
 				8866AC4720EC622500A972DB /* AppDelegate.swift */,
 				8866AC4920EC622500A972DB /* GameViewController.swift */,
+				88C5BCF120F3411D000FC361 /* TitleScreen.swift */,
+				88C5BCEF20F3315C000FC361 /* Scoreboard.swift */,
 				8866AC5D20EDBF6600A972DB /* Leaderboard.swift */,
 				8866AC5B20ECB98700A972DB /* AnswerButton.swift */,
 				88C5BCE320EF176C000FC361 /* QuestionLoader.swift */,
 				88C5BCED20F316FC000FC361 /* GameState.swift */,
+				88C5BCF320F34B6D000FC361 /* Players.swift */,
 				88C5BCE920EF47DB000FC361 /* Question.swift */,
 				88C5BCEB20EF4EAB000FC361 /* Quiz.swift */,
 				8866AC5F20EDEAE000A972DB /* TableViewCell.swift */,
@@ -242,9 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C5BCF420F34B6D000FC361 /* Players.swift in Sources */,
 				88C5BCE420EF176C000FC361 /* QuestionLoader.swift in Sources */,
 				8866AC6020EDEAE000A972DB /* TableViewCell.swift in Sources */,
+				88C5BCF220F3411D000FC361 /* TitleScreen.swift in Sources */,
 				8866AC4A20EC622500A972DB /* GameViewController.swift in Sources */,
+				88C5BCF020F3315C000FC361 /* Scoreboard.swift in Sources */,
 				8866AC5E20EDBF6600A972DB /* Leaderboard.swift in Sources */,
 				8866AC4820EC622500A972DB /* AppDelegate.swift in Sources */,
 				88C5BCEA20EF47DB000FC361 /* Question.swift in Sources */,

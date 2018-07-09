@@ -10,6 +10,7 @@ import UIKit
 
 class GameState {
     static var score: Int = 0
+    static var scoreArray = [Int]()
     
     static var livesLeft: Int = 3 {
         didSet {

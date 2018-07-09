@@ -11,6 +11,7 @@ import SnapKit
 
 class GameViewController: UIViewController {
     
+    @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
@@ -37,6 +38,9 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let scores = UserDefaults.standard.array(forKey: "scores") as? [Int] {
+            GameState.scoreArray = scores
+        }
         
         createConstraints()
         GameViewController.heartsArray = [heart1, heart2, heart3]
@@ -46,6 +50,12 @@ class GameViewController: UIViewController {
         quiz.quiz = questionLoader.getQuestions(path: path)
         newQuestion(sender: answerButton1)
         
+    }
+    
+    @IBAction func backButtonPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: {
+            self.performSegue(withIdentifier: "back", sender: nil)
+        })
     }
     
     @objc func buttonPressed(sender: UIButton) {
@@ -87,6 +97,10 @@ class GameViewController: UIViewController {
     
     func gameOver(sender: UIButton?) {
         timer.invalidate()
+        if GameState.score > 0 {
+            GameState.scoreArray.append(GameState.score)
+            UserDefaults.standard.set(GameState.scoreArray, forKey: "scores")
+        }
         
         let gameOver = UIAlertController(title: "GAME OVER", message: nil, preferredStyle: UIAlertControllerStyle.alert)
         gameOver.addAction(UIAlertAction(title: "retry", style: .default, handler: { (Void) in
@@ -99,6 +113,11 @@ class GameViewController: UIViewController {
             self.scoreLabel.text = "0"
             GameState.score = 0
             GameState.livesLeft = 3
+        }))
+        gameOver.addAction(UIAlertAction(title: "back", style: .default, handler: { (Void) in
+            self.dismiss(animated: true, completion: {
+                self.performSegue(withIdentifier: "back", sender: nil)
+            })
         }))
         self.present(gameOver, animated: true, completion: nil)
         
